@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"o_player2",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"o_dock2",
+  "eventList":[],
   "managed":true,
-  "name":"o_player2",
+  "name":"o_dock2",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_player2",
-    "path":"sprites/s_player2/s_player2.yy",
+    "name":"s_dock2",
+    "path":"sprites/s_dock2/s_dock2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

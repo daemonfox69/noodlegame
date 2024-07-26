@@ -10,15 +10,15 @@ hsp = move * walksp;
 
 vsp = vsp + grv;
 
-if (place_meeting(x,y+1,o_dock2)) && (key_jump)
+if (place_meeting(x,y+1,o_dock1)) && (key_jump)
 {
 	vsp = -7;	
 }
 
 //Horizontal movement
-if (place_meeting(x+hsp,y,o_dock2))
+if (place_meeting(x+hsp,y,o_dock1))
 {
-	while (!place_meeting(x+sign(hsp),y,o_dock2))
+	while (!place_meeting(x+sign(hsp),y,o_dock1))
 	{
 		x = x + sign(hsp);
 	}
@@ -27,9 +27,9 @@ if (place_meeting(x+hsp,y,o_dock2))
 x = x + hsp;
 
 //Vertictal movement
-if (place_meeting(x,y+vsp,o_dock2))
+if (place_meeting(x,y+vsp,o_dock1))
 {
-	while (!place_meeting(x,y+sign(vsp),o_dock2))
+	while (!place_meeting(x,y+sign(vsp),o_dock1))
 	{
 		y = y + sign(vsp);
 	}
