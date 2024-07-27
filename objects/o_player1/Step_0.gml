@@ -12,7 +12,7 @@ vsp = vsp + grv;
 
 if (place_meeting(x,y+1,o_dock2)) && (key_jump)
 {
-	vsp = -7;	
+	vsp = -12;	
 }
 
 //Horizontal movement

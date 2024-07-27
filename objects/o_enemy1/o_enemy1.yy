@@ -1,13 +1,14 @@
 {
   "$GMObject":"",
-  "%Name":"o_player1",
+  "%Name":"o_enemy1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":82,"eventType":5,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_player1",
+  "name":"o_enemy1",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -32,9 +33,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_player1",
-    "path":"sprites/s_player1/s_player1.yy",
+    "name":"s_enemy1",
+    "path":"sprites/s_enemy1/s_enemy1.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"s_enemy1",
+    "path":"sprites/s_enemy1/s_enemy1.yy",
+  },
   "visible":true,
 }
