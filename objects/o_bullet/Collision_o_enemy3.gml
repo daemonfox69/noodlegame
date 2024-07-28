@@ -1,4 +1,5 @@
 /// @description 
+/// @description 
 with (other)
 {
 	hp--;
