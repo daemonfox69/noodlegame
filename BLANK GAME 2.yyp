@@ -53,6 +53,7 @@
     {"id":{"name":"boat","path":"rooms/boat/boat.yy",},},
     {"id":{"name":"captain","path":"rooms/captain/captain.yy",},},
     {"id":{"name":"dock","path":"rooms/dock/dock.yy",},},
+    {"id":{"name":"screen_shake","path":"scripts/screen_shake/screen_shake.yy",},},
     {"id":{"name":"slide_transition","path":"scripts/slide_transition/slide_transition.yy",},},
     {"id":{"name":"sh_white","path":"shaders/sh_white/sh_white.yy",},},
     {"id":{"name":"s_boat_bg","path":"sprites/s_boat_bg/s_boat_bg.yy",},},
