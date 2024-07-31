@@ -13,10 +13,11 @@ if (mouse_check_button(mb_left)) && (firingdelay < 0)
 		firingdelay = 5;
 		recoil = 4;
 		screen_shake(2,10);
-	with (instance_create_layer(x,y,"bullet",o_bullet))
+		audio_play_sound(sn_shoot,5,false);
+		with (instance_create_layer(x,y,"bullet",o_bullet))
 	{
 		speed = 25;
-		direction = other.image_angle + random_range(-3,3);
+	 direction = other.image_angle + random_range(-3,3);
 		image_angle = direction;
 	}	
 }

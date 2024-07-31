@@ -7,3 +7,4 @@ hsp = walksp;
 hp = 8;
 flash = 0;
 hitfrom = 0;
+size = 1;

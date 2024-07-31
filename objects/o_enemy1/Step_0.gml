@@ -21,3 +21,6 @@ if (place_meeting(x,y+vsp,o_dock2))
 	vsp = 0;
 }
 y = y + vsp;
+
+if (hsp != 0) image_xscale = sign(hsp) * size;
+image_yscale = size;
