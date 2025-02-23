@@ -30,7 +30,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.11.0.179",
   },
   "name":"BLANK GAME 2",
   "resources":[
@@ -51,6 +51,7 @@
     {"id":{"name":"o_enemy3","path":"objects/o_enemy3/o_enemy3.yy",},},
     {"id":{"name":"o_enemy4_dead","path":"objects/o_enemy4_dead/o_enemy4_dead.yy",},},
     {"id":{"name":"o_enemy4","path":"objects/o_enemy4/o_enemy4.yy",},},
+    {"id":{"name":"o_gun_enemy1","path":"objects/o_gun_enemy1/o_gun_enemy1.yy",},},
     {"id":{"name":"o_gun","path":"objects/o_gun/o_gun.yy",},},
     {"id":{"name":"o_menu","path":"objects/o_menu/o_menu.yy",},},
     {"id":{"name":"o_player1_dead","path":"objects/o_player1_dead/o_player1_dead.yy",},},
