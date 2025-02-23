@@ -1,8 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-weapon = instance_create_layer(x, y, "Weapons", o_gun_enemy1);
-weapon.parent = id;
-parent = other; // Set in create event when instantiated
-if (parent.object_index == s_enemy1) {
-    shoot_timer = 0;
-}
+shoot_timer = 0;
+shoot_interval = 60; // Adjust for shooting frequency, e.g., 60 for once per second at 60 FPS

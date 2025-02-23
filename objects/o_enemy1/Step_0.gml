@@ -1,5 +1,10 @@
 vsp = vsp + grv;
 
+var player = instance_find(o_player1, 0);
+if (player != noone) {
+    direction = point_direction(x, y, player.x, player.y);
+}
+
 //Horizontal movement
 if (place_meeting(x+hsp,y,o_dock2))
 {
